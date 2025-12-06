@@ -1,10 +1,10 @@
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// int main(){
-//     cout<<"DSA Series on C++\n";
-//     return 0;
-// }
+int main(){
+    cout<<"DSA Series on C++\n";
+    return 0;
+}
 
 //Another format
 // #include<iostream>
