@@ -8,7 +8,10 @@ using namespace std;
 
 int main(){
     int age = 10;
+    char grade = 'A';
     cout << age << endl;
-    cout<< sizeof(age) << endl;
+    cout << "Size of Int is: " << sizeof(age) << endl;
+    cout << grade << endl;
+    cout << "Size of Char is: " << sizeof(grade) << endl;
     return 0;
 }
