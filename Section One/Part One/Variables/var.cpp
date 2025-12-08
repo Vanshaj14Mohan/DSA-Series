@@ -10,7 +10,8 @@ int main(){
     int age = 10;
     char grade = 'A';
     float PI = 3.14f; // f is used to denote float literal
-    bool isAdult = true; // can be either true or false
+    bool isAdult = true; // can be either true or false, represented as 1 or 0 respectively in the memory, 1 means true and 0 means false
+    double largeDecimalNumber = 3.141592653589793; // double is used to store large decimal numbers, 8 bytes = 64 bits
     cout << age << endl;
     cout << "Size of Int is: " << sizeof(age) << endl;
     cout << grade << endl;
@@ -19,5 +20,7 @@ int main(){
     cout << "Size of Float is: " << sizeof(PI) << endl;
     cout << isAdult << endl;
     cout << "Size of Bool is: " << sizeof(isAdult) << endl;
+    cout << largeDecimalNumber << endl;
+    cout << "Size of Double is: " << sizeof(largeDecimalNumber) << endl;
     return 0;
 }
