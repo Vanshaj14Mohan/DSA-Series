@@ -2,6 +2,9 @@
 // Data Types
 // 1. int - used to store integers (whole numbers) 4 bytes = 32 bits 
 // 2. char - used to store single characters 1 byte = 8 bits
+// 3. float - used to store decimal numbers 4 bytes = 32 bits
+// 4. bool - used to store boolean values (true or false) 1 byte = 8 bits
+// 5. double - used to store large decimal numbers 8 bytes = 64 bits
 
 #include<iostream>
 using namespace std;
