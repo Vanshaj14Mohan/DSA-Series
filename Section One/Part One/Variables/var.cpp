@@ -10,7 +10,7 @@
 using namespace std;
 
 int main(){
-    int age = 10;
+    int age = 10; 
     char grade = 'A';
     float PI = 3.14f; // f is used to denote float literal
     bool isAdult = true; // can be either true or false, represented as 1 or 0 respectively in the memory, 1 means true and 0 means false
