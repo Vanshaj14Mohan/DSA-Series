@@ -1,5 +1,5 @@
 // A variable basically acts as a container that helps in storing data.
-// Data Types
+// Data Types in C++ define the type of data that a variable can hold. Here are some commonly used data types in C++:
 // 1. int - used to store integers (whole numbers) 4 bytes = 32 bits 
 // 2. char - used to store single characters 1 byte = 8 bits
 // 3. float - used to store decimal numbers 4 bytes = 32 bits
