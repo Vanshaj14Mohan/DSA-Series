@@ -17,6 +17,7 @@ int main(){
     cout << "a-- = " << (a--) << endl; // Decrement
     cout << "--b = " << (--b) << endl; // Decrement
     // cout << (5 / (double)2) << endl; exception case to show double division 
+    cout << "-----------------------" << endl;
 
     // Comparion Operators or Relational Operators
     cout << "Comparison Operators: " << endl;
@@ -26,5 +27,17 @@ int main(){
     cout << "a < b: " << (a < b) << endl;  // Less than
     cout << "a >= b: " << (a >= b) << endl; // Greater than or equal to
     cout << "a <= b: " << (a <= b) << endl; // Less than or equal to
+    cout << "-----------------------" << endl;
+
+    // Logical Operators
+    cout << "Logical Operators: " << endl;
+    bool x = true, y = false;
+    cout << "x && y: " << (x && y) << endl; // Logical AND
+    cout << "x || y: " << (x || y) << endl; // Logical OR
+    cout << "!x: " << (!x) << endl;         // Logical NOT
+    cout << (5 > 2 && 3 < 7) << endl; // Combining relational and logical operators
+    cout << (5 > 2 || 3 > 7) << endl; 
+    cout << !(5 > 2) << endl;
+    cout << "-----------------------" << endl; 
     return 0;
 }
