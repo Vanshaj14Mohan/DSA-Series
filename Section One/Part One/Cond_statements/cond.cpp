@@ -13,7 +13,6 @@ int main(){
     else{
         cout << "The number is negative: " << num << endl;
     }
-    cout << "Case 2: Voting Eligibility Check" << endl;
 
     // Case 2: Check whether a person is eligible to vote or not
     cout << "Case 2: Voting Eligibility Check" << endl;
@@ -26,7 +25,6 @@ int main(){
     else{
         cout << "Not eligible to vote. " << age << endl;
     }
-    cout << "Case 3: Odd or Even Number Check" << endl;
 
     // Case 3: To check if a number is odd or even
     cout << "Case 3: Odd or Even Number Check" << endl;
