@@ -52,3 +52,7 @@ int main(){
     }
     return 0;
 }
+
+//Note: Characters are stored as integer values in C++ based on the ASCII table.
+// For example, 'A' is stored as 65, 'B' as 66, 'a' as 97, 'b' as 98, etc.
+// Thus, we can compare characters using their ASCII values.
