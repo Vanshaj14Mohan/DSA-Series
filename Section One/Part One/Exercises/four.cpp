@@ -20,3 +20,20 @@ int main(){
     cout  << "Demo sum =" << demo << endl;
     return 0;
 }
+
+//Using break statement
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // Using for loop
+//     int n = 10;
+//     int sum = 0;
+//     for (int i =1; i <=n; i++){
+//         sum += i;
+//         if(i == 5){
+//             break;
+//         }
+//     }
+//     cout << "Sum of numbers from 1 to: " << n << " is " << sum << endl;
+//     return 0;
+// }
