@@ -1,4 +1,5 @@
 // 5: Wap to print sum of all odd numbers from 1 to n.
+//Using for loop
 #include<iostream>
 using namespace std;
 int main(){
