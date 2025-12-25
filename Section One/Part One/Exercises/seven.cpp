@@ -19,5 +19,4 @@ int main(){
         cout << "Non Prime Number" << endl;
     }
     return 0; 
-
 }
