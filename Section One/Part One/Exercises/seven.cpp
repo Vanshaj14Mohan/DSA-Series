@@ -1,4 +1,5 @@
 // 7: Wap to check whether a number is prime number or not
+
 #include<iostream>
 using namespace std;
 int main(){

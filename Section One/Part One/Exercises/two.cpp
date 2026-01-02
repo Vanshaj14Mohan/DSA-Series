@@ -1,5 +1,6 @@
 // 2: Write a simple calculator program that takes two numbers and an operator (+, -, *, /, %)
 // from the user and performs the corresponding operation.
+
 #include<iostream>
 using namespace std;
 int main(){
