@@ -1,4 +1,5 @@
 // 6: Wap to print sum of all even numbers from 1 to n.
+
 #include<iostream>
 using namespace std;
 int main(){

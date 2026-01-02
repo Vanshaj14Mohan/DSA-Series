@@ -1,4 +1,5 @@
 // 8: Wap to calculate sum of all numbers from 1 to N which is divisible by 3:
+
 #include<iostream>
 using namespace std;
 int main(){

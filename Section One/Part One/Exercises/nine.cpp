@@ -1,4 +1,5 @@
 // 9: Wap to print factorials of a number
+
 #include<iostream>
 using namespace std;
 int main(){
