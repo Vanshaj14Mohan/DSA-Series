@@ -3,7 +3,6 @@
 // 12
 // 123
 // 1234
- 
 #include<iostream>
 using namespace std;
 int main(){

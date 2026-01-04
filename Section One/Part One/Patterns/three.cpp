@@ -2,7 +2,6 @@
 // 123
 // 456
 // 789
-
 #include<iostream>
 using namespace std;
 int main(){

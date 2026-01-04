@@ -3,7 +3,6 @@
 // BA
 // CBA
 // DCBA
-
 #include<iostream>
 using namespace std;
 int main(){
