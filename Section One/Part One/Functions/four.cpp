@@ -22,5 +22,7 @@ int main(){
         cout << "Zero factorial is 1" << endl;
     }
     cout << "Factorial of entered number is: " << fact(n) << endl;
+    cout << fact(7) << endl;;
+    cout << fact(5) << endl;
     return 0;
 }
