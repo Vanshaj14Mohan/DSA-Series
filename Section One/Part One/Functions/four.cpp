@@ -21,7 +21,7 @@ int main(){
     else if ( n==0){
         cout << "Zero factorial is 1" << endl;
     }
-    cout << "Factorial of entered number is: " << fact(n) << endl;
+    cout << "Factorial of entered number is: " << fact(n) << endl; //Function Call
     cout << fact(7) << endl;;
     cout << fact(5) << endl;
     return 0;
