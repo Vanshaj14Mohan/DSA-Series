@@ -11,7 +11,7 @@ int checkSum(int n){
     return sum;
 }
 int main(){
-    int res = checkSum(5); //Function Call
-    cout << "Sum from 1 to 5 is: " << res << endl;
+    int res = checkSum(20); //Function Call
+    cout << "Sum from 1 to 10 is: " << res << endl;
     return 0;
 }
