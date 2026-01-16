@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int fibonaaci(int n){
+int fibonaaci(int n){ // Function declaration 
     if (n == 0){
         return 0;
     }
@@ -22,7 +22,7 @@ int main(){
     int n;
     cout << "Enter number: ";
     cin >> n;
-    int res = fibonaaci(n);
+    int res = fibonaaci(n); // Function Call
     cout << "Nth fibonaaci number is: " << res << endl;
     return 0;
 }
