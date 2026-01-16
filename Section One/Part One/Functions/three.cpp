@@ -10,6 +10,7 @@ int checkSum(int n){
     }
     return sum;
 }
+
 int main(){
     int res = checkSum(20); //Function Call
     cout << "Sum from 1 to 10 is: " << res << endl;

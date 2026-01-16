@@ -3,7 +3,7 @@
 using namespace std;
 
 //Function Declaration
-long long fact(int n){
+long long fact(int n){ //used long long to avoid overflow for large factorials
     long long fact = 1;
     for(int i =1; i<=n; i++){
         fact *= i;
