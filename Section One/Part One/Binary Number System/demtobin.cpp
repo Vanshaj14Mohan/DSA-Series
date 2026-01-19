@@ -21,6 +21,6 @@ int main(){
     int n;
     cout << "Enter the number you want to convert into binary: ";
     cin >> n;
-    cout << n << " in binary is:" << decTobin(n) << endl;
+    cout << n << " in binary is:" << decTobin(n) << endl; // Calling that function
     return 0;
 }

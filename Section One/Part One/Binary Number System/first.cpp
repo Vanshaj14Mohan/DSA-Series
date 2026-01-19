@@ -20,7 +20,7 @@ int decTobin(int n){
 int main(){
     int n = 10;
     for(int i =1; i<=n; i++){
-        cout << i << " and it's binary is: " << decTobin(i) << endl;
+        cout << i << " and it's binary is: " << decTobin(i) << endl; // Calling Function
     }
     return 0;
 }
