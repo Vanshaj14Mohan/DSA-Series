@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+//Creating a function
 int bintodec(int n){
     int ans = 0, pow = 1;
     while(n > 0){
