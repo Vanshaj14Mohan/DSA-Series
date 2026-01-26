@@ -7,7 +7,10 @@ int main(){
     cout << sizeof(long) <<endl; // It would print 4
     cout << sizeof(char) <<endl; // It would print 1
     cout << sizeof(double) <<endl; // It would print 8
+    cout << sizeof(float) <<endl; // It would print 4
+    cout << sizeof(bool) <<endl; // It would print 1
     cout << sizeof(long int) << endl; // It would print 4, coz of Windows setup as it uses LLP64
+    cout << sizeof(short int) << endl; // It would print 2
     cout << sizeof(long long int) << endl; // It would print 8
     return 0;
 }
