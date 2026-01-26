@@ -1,4 +1,4 @@
-// SOme conversion problems
+// Some conversion problems
 #include<iostream>
 using namespace std;
 
