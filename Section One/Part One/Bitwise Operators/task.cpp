@@ -1,4 +1,4 @@
-// 1: Write a program and check if a number is power of 2 or not:
+// 1: Write a program and check if a number is power of 2 or not wihtout uaing loops:
 #include<iostream>
 using namespace std;
 
