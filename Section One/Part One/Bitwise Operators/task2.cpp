@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+// Creating a function
 int rev_num(int n){
     int rev = 0;
     while(n !=0){
@@ -16,7 +17,7 @@ int main(){
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    int res = rev_num(n);
+    int res = rev_num(n); // Calling that function
     cout << "Entered number is: " << n << endl;
     cout << "And it's reverse is: " << res << endl;
     return 0;
