@@ -15,5 +15,8 @@ int main(){
     // Now taking input from user 
     const int siz = 6;
     int data[siz];
+    for (int i =0; i<siz; i++){
+        cin >> data[i];
+    }
     return 0;
 }
