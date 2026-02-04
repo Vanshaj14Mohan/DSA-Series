@@ -12,8 +12,8 @@ int main(){
     cout << marks[4] << endl;
     // For price
     cout << price[0] << endl;
-    cout << marks[2] << endl;
-    cout << marks[3] << endl;
+    cout << price[2] << endl;
+    cout << price[3] << endl;
     // we can also update it's value
     marks[3] = 94;
     cout << marks[3] << endl; // 94
