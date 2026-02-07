@@ -2,7 +2,8 @@
 #include<iostream>
 using namespace std;
 
-int rev_arr(int arr[], int size){
+// Making a function to reverse the array
+void rev_arr(int arr[], int size){
     int start = 0;
     int end = size-1;
     while(start < end){
@@ -15,7 +16,14 @@ int rev_arr(int arr[], int size){
 int main(){
     int arr[] = {1, 2, 3, 4, 5, 6};
     int size = sizeof(arr)/sizeof(arr[0]);
-    int rev = rev_arr(arr, size);
-    cout << "Reversed array is:" << rev << endl;
+    cout << "Original array is:" << endl;
+    for(int i =0; i< size; i++){
+        cout << arr[i] << " ";
+    }
+    rev_arr(arr, size);
+    cout << "\nReversed array is : " << endl;
+    for(int i =0; i< size; i++){
+        cout << arr[i] << " ";
+    }
     return 0;
 }
