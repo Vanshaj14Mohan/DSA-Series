@@ -17,6 +17,6 @@ int main(){
     for(int i =0; i< 3; i++){
         cout << arr[i] << " "; // arr is passed by reference so whatever changes we make in function would reflect here as well
     }
-    cout <<endl;
+    cout <<endl;  
     return 0;
 }
