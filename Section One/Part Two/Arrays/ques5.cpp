@@ -11,15 +11,15 @@ void swap_min_max(int arr[], int size){
     for(int i = 0; i<size; i++){
         if(arr[i] < min){
             min = arr[i];
-            min_index = i;
+            min_index = i; // to update the index of min number, so we can swap it later with max number
         }
         if(arr[i] > max){
             max = arr[i];
-            max_index = i;
+            max_index = i; // to update the index of max number, so we can swap it later with min number
         }
     }
     swap(arr[min_index], arr[max_index]);
-    cout << "Swapping min and max elements, min is: " << min << " and max is: " << max << endl;
+    cout << "min element is: " << min << " and max element is: " << max << endl;
 }
 
 int main(){
