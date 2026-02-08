@@ -26,13 +26,13 @@ int main(){
     int arr[] = {10, 5, 30, 40, 50, 35, 90};
     int size = sizeof(arr)/sizeof(arr[0]);
     cout << "Original array is: " << endl;
-    for(int i =0; i< size; i++){
+    for(int i =0; i< size; i++){ // Printing original array
         cout << arr[i] << " ";
     }
     cout << endl;
     cout << "After swapping min and max elements: "<< endl;
     swap_min_max(arr, size);
-    for(int i = 0; i<size; i++){
+    for(int i = 0; i<size; i++){ // Printing array after swapping min & max elements
         cout << arr[i] << " ";
     }
     return 0;
