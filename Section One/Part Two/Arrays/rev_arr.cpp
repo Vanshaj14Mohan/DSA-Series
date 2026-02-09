@@ -3,6 +3,7 @@
 using namespace std;
 
 // Making a function to reverse the array, void as it's not returning anything, just modifying the original array:
+// Start and end are basically two pointers here, start for first element and end for last element,
 void rev_arr(int arr[], int size){
     int start = 0;
     int end = size-1;
