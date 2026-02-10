@@ -27,6 +27,6 @@ int main(){
         cout << arr[i] << " ";
     }
     cout << endl;
-    unique_array(arr, size);
+    unique_array(arr, size); // Calling the function
     return 0;
 }
