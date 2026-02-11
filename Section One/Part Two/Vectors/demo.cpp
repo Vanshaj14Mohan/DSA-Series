@@ -24,7 +24,7 @@ int main(){
     cout << endl;
     // Creating a charcter vector:
     vector<char> v1 = {'a', 'b', 'c', 'd'};
-    for(char val: v1){
+    for(char val: v1){ // syntax for for each loop
         cout << val << " ";
     }
     return 0;
