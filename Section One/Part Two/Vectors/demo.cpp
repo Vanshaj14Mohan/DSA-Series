@@ -17,5 +17,15 @@ int main(){
     cout <<vect[1]<<endl; // 0
     cout <<vect[2]<<endl; // 0
     cout <<vect[3]<<endl; //0
+    // using for each loop to print all the lements present in vector type 2
+    for(int i: vec){
+        cout << i << " "; 
+    }
+    cout << endl;
+    // Creating a charcter vector:
+    vector<char> v1 = {'a', 'b', 'c', 'd'};
+    for(char val: v1){
+        cout << val << " ";
+    }
     return 0;
 }
