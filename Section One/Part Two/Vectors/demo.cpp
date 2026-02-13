@@ -11,21 +11,23 @@ int main(){
     // 2nd Type of creating a vector
     vector <int> vec={1,2,3,4,5}; // Created and initialized a vector
     cout << vec[0] << endl; // 1;
+    cout << vec[1] << endl; // 2;
+    cout << vec[4] << endl; // 5; 
     // 3rd Type 
     vector<int> vect(4,0); // 4 represent size of array, 0 represent value of all elements in vector
     cout <<vect[0]<<endl; // 0
     cout <<vect[1]<<endl; // 0
     cout <<vect[2]<<endl; // 0
     cout <<vect[3]<<endl; //0
-    // using for each loop to print all the lements present in vector type 2
-    for(int i: vec){
-        cout << i << " "; 
+    // using for each loop to print all the elements present in vector type 2
+    for(int val: vec){
+        cout << val << " "; // 1 2 3 4 5 
     }
     cout << endl;
     // Creating a charcter vector:
     vector<char> v1 = {'a', 'b', 'c', 'd'};
-    for(char val: v1){ // syntax for for each loop
-        cout << val << " ";
+    for(char val: v1){ // syntax for, for each loop
+        cout << val << " "; // a b c d
     }
     return 0;
 }
