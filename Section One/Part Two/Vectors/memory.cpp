@@ -1,4 +1,4 @@
-// In this we will see how vectors are stores in memory
+// In this we will see how vectors are stores in memory:
 #include<iostream>
 #include<vector>
 using namespace std;
