@@ -15,7 +15,7 @@ int reverseArray(vector<int> &vec){
 }
 
 int main(){
-    vector<int> vec = {1, 2, 3, 4, 5, 6};
+    vector<int> vec = {1, 2, 3, 4, 5, 6}; // using a vector here
     cout << "Original array is: " << endl;
     for(int i = 0; i<vec.size(); i++){
         cout << vec[i] << " ";
