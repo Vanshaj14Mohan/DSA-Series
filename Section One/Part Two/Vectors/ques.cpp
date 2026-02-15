@@ -1,10 +1,10 @@
-// Write Linear search using vector and functions
+// Write Linear search program using vector and functions
 #include<iostream>
 #include<vector>
 using namespace std;
 
 // Creating a function 
-int linearFunction(vector<int> &nums, int target){
+int linearFunction(const vector<int> &nums, int target){ // const as we are not modifying the vector
     for(int i =0; i<nums.size(); i++){
         if(nums[i] == target){
             return i;
