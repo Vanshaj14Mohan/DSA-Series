@@ -8,7 +8,7 @@ int maxsubArray(vector<int> vec, int size){
     for(st =0; st< size; st++){
         for(int end = st; end< size; end++){
             for(int i = st; i<=end; i++){
-                cout << vec[i] << " ";
+                cout << vec[i];
             }
             cout << " ";
         }
