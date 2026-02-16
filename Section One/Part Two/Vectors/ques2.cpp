@@ -1,4 +1,4 @@
-// Write a program to reverse an array using vector and functions
+// 2: Write a program to reverse an array using vector and functions
 #include<iostream>
 #include<vector>
 using namespace std;
