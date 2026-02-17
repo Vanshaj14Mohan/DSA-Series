@@ -4,6 +4,7 @@
 #include<climits>
 using namespace std;
 
+// Done in O(n^2) Complexity
 int main(){
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int size = sizeof(arr)/sizeof(arr[0]);
