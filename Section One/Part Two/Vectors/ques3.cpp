@@ -1,10 +1,9 @@
 // 3: Find largest sub-array sum using vector and function
 #include<iostream>
 #include<vector>
-#include<climits>
 using namespace std;
 
-int maxsubArray(vector<int> vec, int size){
+int maxsubArray(vector<int> &vec, int size){
     for(int st =0; st< size; st++){
         for(int end = st; end< size; end++){
             for(int i = st; i<=end; i++){
