@@ -4,7 +4,6 @@
 #include<vector>
 using namespace std;
 
-// making a function
 vector<int> PairSum(vector<int> nums, int target){
     vector<int> ans;
     int n = nums.size();
