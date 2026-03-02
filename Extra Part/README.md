@@ -1,4 +1,4 @@
-# 📚 C++ STL In-detail Walkthrough
+# 📚 C++ STL Walkthrough
 
 ### Author: Vanshaj P Mohan
 
