@@ -23,7 +23,7 @@ int majorelem(vector<int> &vec){
     return ans;
 }
 int main(){
-    vector<int> vec = {1, 2, 2, 1, 1, 1};
+    vector<int> vec = {1, 2, 2, 1, 1, 1,};
     //Checking for majority element
     int ans = majorelem(vec);
     cout << "Majority element present in vector is: " << ans << endl;
