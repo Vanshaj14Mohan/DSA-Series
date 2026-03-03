@@ -4,7 +4,6 @@
 #include<climits>
 using namespace std;
 
-// Creating a function
 int larsubArray(vector<int> &vec){
     int currSum = 0, maxSum = INT_MIN;
     for(int val: vec){
