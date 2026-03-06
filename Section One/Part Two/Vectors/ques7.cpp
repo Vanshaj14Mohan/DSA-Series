@@ -4,7 +4,6 @@
 using namespace std;
 
 // Making a function
-
 int majorelem(vector<int> &vec){
     int n = vec.size();
     int freq = 0;
@@ -22,6 +21,7 @@ int majorelem(vector<int> &vec){
     }
     return ans;
 }
+
 int main(){
     vector<int> vec = {1, 2, 2, 1, 1, 1,};
     //Checking for majority element
