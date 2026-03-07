@@ -1,4 +1,4 @@
-// Question number 50 pow(x, n)
+// Question 1 pow(x, n)
 #include<iostream>
 using namespace std;
 
