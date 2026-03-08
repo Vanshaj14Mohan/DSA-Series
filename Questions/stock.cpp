@@ -1,6 +1,5 @@
 // Question 2
 // Stock Buy and Sell
-
 #include<iostream>
 #include<algorithm>
 using namespace std;
