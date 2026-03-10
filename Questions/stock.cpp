@@ -1,5 +1,6 @@
 // Question 2
-// Stock Buy and Sell
+// Best time to by Buy and Sell Stock
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
