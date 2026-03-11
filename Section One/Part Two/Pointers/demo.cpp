@@ -11,6 +11,7 @@ int main(){
     int c = 20;
     int* ptr = &c; // * represents we are making a pointer here
     cout << "Address of c is: " << ptr << endl;
+    cout << "Without using pointer, address of c " << &c << endl; // both values would be same
     // Same for float
     float price = 100.25;
     float *ptr2 = &price;
