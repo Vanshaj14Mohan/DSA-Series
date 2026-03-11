@@ -9,7 +9,7 @@ int main(){
     char b = 'b';
     cout << "Address of int a " << &a << " "  << "Address of char b " << (void*)&b << endl; // we use (void*) is to force cout to treat the value as a raw memory address, not as a character string.
     int c = 20;
-    int* ptr = &c;
+    int* ptr = &c; // * represents we are making a pointer here
     cout << "Address of c is: " << ptr << endl;
     // Same for float
     float price = 100.25;
