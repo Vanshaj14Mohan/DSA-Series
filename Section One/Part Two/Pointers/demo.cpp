@@ -13,6 +13,7 @@ int main(){
     cout << "Address of c is: " << ptr << endl;
     cout << "Without using pointer, address of c: " << &c << endl; // both values would be same
     cout << "Address of pointer ptr: " << &ptr << endl; // this is the address of the pointer
+
     // Same for float
     float price = 100.25;
     float *ptr2 = &price;
