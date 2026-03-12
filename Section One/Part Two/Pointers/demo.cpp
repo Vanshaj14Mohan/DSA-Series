@@ -44,5 +44,8 @@ int main(){
     cout << *(pitr) << endl; // 10
     cout << *(pitr2) << endl; // value stored at pitr ie address of y
     cout << pitr << endl; // shows the address of y, same value as above
+    // double dereference
+    cout << **(pitr2) << endl; // 10, pitr2 address value -> pitr address value -> y address value
+    // or pitr2 → pitr → y
     return 0; 
 }
