@@ -23,15 +23,26 @@ int main(){
     // Pointer to pointer approach
     int x = 100;
     int* point = &x;
+    cout << "Address of x: " << &x << endl;
     cout << "Address of x stored in the pointer: " << &point << endl; 
     cout << "Storing the pointer address in another pointer: " << endl;
     int** point2 = &point;
     // In point 2 the value of point is stored so same value between the two but point2 would have different address
     cout << "Point one address stored in second pointer: " << point2 << endl; // both point & point2 would show the same value
     // Dereference operator
-    cout << "Using derefernce operator on point:" << *(&x) << endl; // 100
+    cout << "Using derefernce operator on x:" << *(&x) << endl; // 100
     cout << "Using derefernce operator on point:" << *(point) << endl; // 100
-    cout << "Using derefernce operator on point:" << *(&point) << endl; // 100
-    cout << "Using derefernce operator on point:" << *(point2) << endl; // 100
+    cout << "Using derefernce operator on &point:" << *(&point) << endl; // address of x
+    cout << "Using derefernce operator on point2:" << *(point2) << endl; //address of point 
+    cout << "---------------------------------------------"<<endl;
+
+    int y = 10;
+    int* pitr = &y;
+    int** pitr2 = &pitr;
+    cout << &y <<endl; // this address of y will be stored in ptr
+    cout << *(&y) << endl; // 10
+    cout << *(pitr) << endl; // 10
+    cout << *(pitr2) << endl; // value stored at pitr ie address of y
+    cout << pitr << endl; // shows the address of y, same value as above
     return 0; 
 }
