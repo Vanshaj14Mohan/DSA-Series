@@ -7,6 +7,7 @@ int main(){
     int* p = &a;
     int** q = &p;
 
+    // For arranging and visualizing them based on the given address 
     cout << &a << endl; //0x61ff0c
     cout << &p <<endl; //0x61ff08
     cout << &q <<endl; //0x61ff04
