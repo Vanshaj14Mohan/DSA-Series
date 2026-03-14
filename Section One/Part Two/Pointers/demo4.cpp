@@ -1,5 +1,5 @@
 // Pointer Arithmetic: 
-// Increment(++)/ Decrement(--)
+// How Increment(++)/ Decrement(--) Operators works in Pointers
 
 #include<iostream>
 using namespace std;
