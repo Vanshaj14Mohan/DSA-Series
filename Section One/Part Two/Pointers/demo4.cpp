@@ -12,5 +12,6 @@ int main(){
     cout << ptr << endl; // 0x61ff0c ie (8 9 a b) 4 bytes space,  hexadecimal stage
     ptr--;
     cout << ptr <<endl; // 0x61ff08, original one (c b a 9) 4 bytes space again
+    // Add/Subtract a number in pointers
     return 0;
 }
