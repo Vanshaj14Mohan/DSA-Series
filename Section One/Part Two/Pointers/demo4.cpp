@@ -19,6 +19,7 @@ int main(){
     str = str + 2; // 2int => 8 Bytes
     cout << str << endl;
     int arr[] = {1, 2, 3, 4, 5};
+    //contiguous memory allocation
     cout << *arr << endl; // 1
     cout << *(arr+1) <<endl; // 2
     cout << *(arr+2) <<endl; // 3
