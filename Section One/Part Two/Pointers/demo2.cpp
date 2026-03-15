@@ -1,4 +1,5 @@
 // Null Pointers: basically a pointer that doesn't point to any location
+
 #include<iostream>
 using namespace std;
 
