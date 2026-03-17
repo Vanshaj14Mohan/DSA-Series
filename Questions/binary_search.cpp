@@ -17,6 +17,7 @@ int bin_search(vector<int> arr, int target){ // Iterative code of binary search
         else if(target < arr[mid]){
             end = mid-1;
         }
+        // Case 3: target == arr[mid]
         else{
             return mid;
         }
