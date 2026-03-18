@@ -1,4 +1,4 @@
-// A program to implement binary search
+// A program to implement binary search iterative approach
 #include<iostream>
 #include<vector>
 using namespace std;
