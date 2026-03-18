@@ -1,10 +1,9 @@
 // A program to implement binary search
-
 #include<iostream>
 #include<vector>
 using namespace std;
 
-// creating a function
+// creating a function using vectors here:
 int bin_search(vector<int> arr, int target){ // Iterative code of binary search
     int st = 0, end =  arr.size() - 1;
     while(st <=end){
