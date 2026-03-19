@@ -7,12 +7,13 @@ using namespace std;
 int bin_search(vector<int> arr, int target){ // Iterative code of binary search
     int st = 0, end =  arr.size() - 1;
     while(st <=end){
-        int mid = (st+end)/2;
-        // Case 1:
+        int mid = st + (end-st)/2; // more precise and accurate
+        // int mid = (st+end)/2;
+        // Case 1: // For second half
         if(target > arr[mid]){
             st = mid + 1;
         }
-        // Case 2:
+        // Case 2: // For first half
         else if(target < arr[mid]){
             end = mid-1;
         }
