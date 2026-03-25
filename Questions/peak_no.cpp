@@ -10,7 +10,7 @@ int peak_no(vector<int> &arr){
             return mid;
         }
         // Else checking whether we are on right side or left side:
-        else if(arr[mid] < arr[mid -1]){ // right side
+        else if(arr[mid - 1] < arr[mid]){ // right side
             st = mid + 1;
         }
         else{
