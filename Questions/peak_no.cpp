@@ -3,6 +3,7 @@
 #include<vector>
 using namespace std;
 
+// Creating a function here
 int peak_no(vector<int> &arr){
     int st = 1, end = arr.size()-2;
     while(st<=end){
