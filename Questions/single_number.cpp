@@ -5,7 +5,6 @@ using namespace std;
 
 int singleElement(vector <int> &nums){
     int n = nums.size();
-    int st = 0, end = n-1;
     if(n==1) return nums[0];
     int st = 0, end = n-1;
     while(st<=end){
