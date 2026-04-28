@@ -8,7 +8,7 @@ int singleElement(vector <int> &nums){
     if(n==1) return nums[0];
     int st = 0, end = n-1;
     while(st<=end){
-        int mid = st + (end-st)/2;
+        int mid = st + (end-st)/2; // Finding mid 
 
         //checking corner cases
         if(mid == 0 && nums[0] != nums[1]) return nums[mid];
